@@ -2,7 +2,7 @@
     <ul>
         {% for ticker in results %}
             <li>
-                {{ ticker.symbol }}
+                [{{ticker.index}}] {{ ticker.symbol }}: {{ ticker.company_name}} 
                 <span>add</span>
             </li>
         {% endfor %}
